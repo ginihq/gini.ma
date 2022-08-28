@@ -2,14 +2,26 @@
 <html class="no-js" lang="" data-theme="light">
   <head>
     <meta charset="utf-8" />
-    <title>Gini</title>
-    <meta name="description" content="" />
+    <title>
+      Gini - Besoin d'argent? Nous vous dépannons en quelques minutes!
+    </title>
+    <meta
+      name="description"
+      content="Emprunter en quelques minutes et sans justificatifs est maintenant possible."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+    <meta
+      property="og:title"
+      content="Besoin d'argent? Nous vous dépannons en quelques minutes!"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gini.ma" />
+    <meta property="og:image" content="https://gini.ma/img/socia.jpg" />
+    <meta
+      property="og:description"
+      content="Emprunter en quelques minutes et sans justificatifs est maintenant possible."
+    />
 
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
@@ -175,17 +187,18 @@
     <script src="js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-854FTZSTFM"
+    ></script>
     <script>
-      window.ga = function () {
-        ga.q.push(arguments);
-      };
-      ga.q = [];
-      ga.l = +new Date();
-      ga("create", "UA-XXXXX-Y", "auto");
-      ga("set", "anonymizeIp", true);
-      ga("set", "transport", "beacon");
-      ga("send", "pageview");
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-854FTZSTFM");
     </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
   </body>
 </html>

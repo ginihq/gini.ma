@@ -27,7 +27,7 @@
   --line-height: 1.5;
   --font-weight: 400;
   --font-size: 16px;
-  --border-radius: 1rem;
+  --border-radius: 0.3rem;
   --border-width: 1px;
   --outline-width: 3px;
   --spacing: 1rem;
@@ -231,7 +231,7 @@ kbd {
   --muted-color: hsl(205deg, 10%, 50%);
   --muted-border-color: hsl(205deg, 20%, 94%);
   --primary: #363853;
-  --primary-hover: hsl(195deg, 90%, 32%);
+  --primary-hover: #666880;
   --primary-focus: rgba(16, 149, 193, 0.125);
   --primary-inverse: #fff;
   --secondary: hsl(205deg, 15%, 41%);
